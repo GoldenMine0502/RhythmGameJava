@@ -1,6 +1,6 @@
-package com.GoldenMine.objects;
+package kr.goldenmine.objects;
 
-import com.GoldenMine.GameInformation;
+import kr.goldenmine.GameInformation;
 import java.awt.Graphics;
 
 /**

@@ -1,12 +1,12 @@
-package com.GoldenMine;
+package kr.goldenmine;
 
-import com.GoldenMine.objects.*;
-import com.GoldenMine.objects.notes.LongNote;
-import com.GoldenMine.objects.notes.Note;
-import com.GoldenMine.objects.notes.SingleNote;
-import com.GoldenMine.thread.threadAPI.APISingleThread;
-import com.GoldenMine.thread.threadAPI.APIThread;
-import com.GoldenMine.thread.threadAPI.APIThreadHandler;
+import kr.goldenmine.objects.*;
+import kr.goldenmine.objects.notes.LongNote;
+import kr.goldenmine.objects.notes.Note;
+import kr.goldenmine.objects.notes.SingleNote;
+import kr.goldenmine.thread.threadAPI.APISingleThread;
+import kr.goldenmine.thread.threadAPI.APIThread;
+import kr.goldenmine.thread.threadAPI.APIThreadHandler;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;

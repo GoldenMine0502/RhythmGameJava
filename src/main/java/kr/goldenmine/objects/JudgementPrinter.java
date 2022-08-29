@@ -1,11 +1,11 @@
-package com.GoldenMine.objects;
+package kr.goldenmine.objects;
 
-import com.GoldenMine.GameInformation;
-import com.GoldenMine.ImageUtility;
-import com.GoldenMine.Judgement;
-import com.GoldenMine.Point;
+import kr.goldenmine.GameInformation;
+import kr.goldenmine.ImageUtility;
+import kr.goldenmine.Judgement;
+import kr.goldenmine.Point;
+
 import java.awt.*;
-import java.awt.image.BufferedImage;
 
 /**
  * Created by ehe12 on 2018-11-13.

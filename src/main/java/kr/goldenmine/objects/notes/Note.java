@@ -1,11 +1,8 @@
-package com.GoldenMine.objects.notes;
+package kr.goldenmine.objects.notes;
 
-import com.GoldenMine.GameInformation;
-import com.GoldenMine.Judgement;
-import com.GoldenMine.objects.Drawer;
-import java.awt.Graphics;
-import com.GoldenMine.Point;
-import java.util.List;
+import kr.goldenmine.GameInformation;
+import kr.goldenmine.Judgement;
+import kr.goldenmine.objects.Drawer;
 
 /**
  * Created by ehe12 on 2018-11-12.

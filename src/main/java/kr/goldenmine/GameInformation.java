@@ -1,4 +1,4 @@
-package com.GoldenMine;
+package kr.goldenmine;
 
 import java.util.ArrayList;
 import java.util.HashMap;

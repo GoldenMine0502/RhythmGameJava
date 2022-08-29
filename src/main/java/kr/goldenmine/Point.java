@@ -1,4 +1,4 @@
-package com.GoldenMine;
+package kr.goldenmine;
 
 /**
  * Created by ehe12 on 2018-11-12.

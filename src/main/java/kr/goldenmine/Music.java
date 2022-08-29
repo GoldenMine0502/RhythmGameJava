@@ -1,12 +1,12 @@
-package com.GoldenMine;
+package kr.goldenmine;
 
-import com.GoldenMine.objects.notes.LongNote;
-import com.GoldenMine.objects.notes.Note;
-import com.GoldenMine.objects.notes.SingleNote;
+import kr.goldenmine.objects.notes.LongNote;
+import kr.goldenmine.objects.notes.Note;
+import kr.goldenmine.objects.notes.SingleNote;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import javax.sound.sampled.*;
+
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
 

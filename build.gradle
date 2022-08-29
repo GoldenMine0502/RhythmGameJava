@@ -1,0 +1,56 @@
+plugins {
+    id 'java'
+}
+
+group = 'kr.goldenmine'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.9.1'
+    // https://mvnrepository.com/artifact/javazoom/jlayer
+    implementation group: 'javazoom', name: 'jlayer', version: '1.0.1'
+//    implementation files('libs/ThreadAPI.jar')
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/resources", "src/main/configs"
+        }
+    }
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+//configurations {
+//    // configuration that holds jars to include in the jar
+//    extraLibs
+//}
+
+//tasks {
+//    processResources {
+//        duplicatesStrategy = org.gradle.api.file.DuplicatesStrategy.INCLUDE
+//    }
+//}
+//tasks.withType<Jar>() {
+//    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+//}
+jar {
+//    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    manifest {
+        attributes 'Main-Class': 'kr.goldenmine.Main'
+    }
+
+    from {
+        configurations.runtimeClasspath.collect {it.isDirectory() ? it : zipTree(it) }
+//        configurations.extraLibs.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

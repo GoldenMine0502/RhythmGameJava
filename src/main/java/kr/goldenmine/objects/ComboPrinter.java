@@ -1,9 +1,9 @@
-package com.GoldenMine.objects;
+package kr.goldenmine.objects;
 
-import com.GoldenMine.GameInformation;
-import com.GoldenMine.ImageUtility;
-import com.GoldenMine.Judgement;
-import com.GoldenMine.Point;
+import kr.goldenmine.GameInformation;
+import kr.goldenmine.ImageUtility;
+import kr.goldenmine.Point;
+
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -28,7 +28,7 @@ public class ComboPrinter {
         AtomicInteger inte;
 
         String comboToStr = "COMBO";
-        Point size = ImageUtility.getTextSize(nanum, comboToStr);
+        kr.goldenmine.Point size = ImageUtility.getTextSize(nanum, comboToStr);
         int startX = (information.getWindowSize().getX() - size.getX()) / 2;
         int startY = (int) ((information.getWindowSize().getY() / 4D * 1.2) + nanum.getSize()*1.2);
 

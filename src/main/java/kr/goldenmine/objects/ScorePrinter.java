@@ -1,8 +1,9 @@
-package com.GoldenMine.objects;
+package kr.goldenmine.objects;
 
-import com.GoldenMine.GameInformation;
-import com.GoldenMine.ImageUtility;
-import com.GoldenMine.Point;
+import kr.goldenmine.GameInformation;
+import kr.goldenmine.ImageUtility;
+import kr.goldenmine.Point;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;

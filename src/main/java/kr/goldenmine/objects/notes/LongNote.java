@@ -1,7 +1,8 @@
-package com.GoldenMine.objects.notes;
+package kr.goldenmine.objects.notes;
 
-import com.GoldenMine.GameInformation;
-import com.GoldenMine.Judgement;
+import kr.goldenmine.GameInformation;
+import kr.goldenmine.Judgement;
+
 import java.awt.*;
 
 /**
